@@ -1,0 +1,128 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <header>
+    <link rel="sytelsheet" href="styles.css">
+  </header>
+  <body>
+    <main id="main">
+      <h1 id="title">Demon Slayer</h1>
+      <h2 id="title2">The anime that saved billion people</h2>
+      <div id="img-div">
+        <img id="image" src="https://m.media-amazon.com/images/M/MV5BZjZjNzI5MDctY2Y4YS00NmM4LTljMmItZTFkOTExNGI3ODRhXkEyXkFqcGdeQXVyNjc3MjQzNTI@._V1_.jpg">
+        <figcaption id="img-caption">Demon Slayer (Kimetsu no Yaiba) poster</figcaption>
+      <h2 id="tribute-info">
+        With only four seasons to date, Demon Slayer: Kimetsu no Yaiba has taken the anime world by storm. It's pretty impressive, considering other anime hits like One Piece and Naruto have years of content under their respective belts. But ask any fans of the show, and they'll tell you - Demon Slayer ranks among the best
+      </h2>
+      <h3>Here is the order of Demon Slayer releases:</h3>
+      <ul>
+        <li>Demon Slayer: Kimetsu no Yaiba season 1</li>
+        <li>Demon Slayer: Kimetsu no Yaiba – The Movie: Mugen Train OR Demon Slayer: Kimetsu no Yaiba season 2 - Mugen Train Arc</li>
+        <li>Demon Slayer: Kimetsu no Yaiba season 2 - Entertainment District Arc</li>
+        <li>Demon Slayer: Kimetsu No Yaiba - To the Swordsmith Village OR Demon Slayer: Kimetsu No Yaiba season 3 - Swordsmith Village Arc</li>
+        <li>Demon Slayer: Kimetsu No Yaiba season 4 - Hashira Training Arc</li> 
+      </ul>
+      <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba">Link on the page for additional information.</a>
+      </div>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+#img-caption {
+  font-style: italic;
+}
+
+#main {
+  margin: 20px;
+}
+
+#title {
+  color: #333;
+  text-align: center;
+}
+
+#title2 {
+  color: #666;
+  text-align: center;
+}
+
+#img-div {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+#img-caption {
+  font-style: italic;
+}
+
+#tribute-info {
+  text-align: justify;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+  list-style: none;
+}
+
+li::before {
+  content: '\2022';
+  color: #333;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  padding-right: 0.5em;
+}
+
+#tribute-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #333;
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#tribute-link:hover {
+  background-color: #ccc;
+  color: #000;
+}
+
+** end of undefined **
+

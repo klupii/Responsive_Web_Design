@@ -1,0 +1,131 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
+      <form id="survey-form">
+        <label for="name-label" id="name-label">Name
+          <input id="name" type="text" placeholder="Enter your name" required>
+        </label>
+        <label for="email-label" id="email-label">Email
+          <input id="email" type="email" placeholder="Enter your Email" required>
+        </label>
+        <label for="number-label" id="number-label">Age (optional)
+          <input id="number" type="number" min="18" max="100" placeholder="Age">
+        </label>
+        <label for="dropdown">Which option best describes your current role?</label>
+        <select id="dropdown">
+          <option disabled selected>Select current role</option>
+          <option>Student</option>
+          <option>Full Time Job</option>
+          <option>Full Time Learner</option>
+          <option>Prefer not to say</option>
+          <option>Other</option>
+        </select>
+        <label for="radio">Would you recommend freeCodeCamp to a friend?</label>
+        <div class="radio-options">
+          <label><input type="radio" name="recommendation" value="Definitely" checked>Definitely</label>
+          <label><input type="radio" name="recommendation" value="Maybe">Maybe</label>
+          <label><input type="radio" name="recommendation" value="Not sure">Not sure</label>
+        </div>
+        <label for="checkboxes">What would you like to see improved? (Check all that apply)</label>
+        <div class="checkbox-options">
+          <label><input type="checkbox" value="front">Front-end Projects</label>
+          <label><input type="checkbox" value="back">Back-end Projects</label>
+          <label><input type="checkbox" value="data">Data Visualization</label>
+          <label><input type="checkbox" value="challenges">Challenges</label>
+          <label><input type="checkbox" value="open">Open Source Community</label>
+          <label><input type="checkbox" value="rooms">Gitter help rooms</label>
+          <label><input type="checkbox" value="videos">Videos</label>
+        </div>
+        <label for="comment">Any comments or suggestions?</label>
+        <textarea id="comment" placeholder="Enter your comment here..."></textarea>
+        <button id="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px 40px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+#title {
+  text-align: center;
+  color: #333;
+}
+
+#description {
+  text-align: center;
+  color: #666;
+}
+
+#survey-form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+  width: calc(100% - 22px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.radio-options label,
+.checkbox-options label {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+#submit {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+}
+
+#submit:hover {
+  background-color: #0056b3;
+}
+
+
+** end of undefined **
+
